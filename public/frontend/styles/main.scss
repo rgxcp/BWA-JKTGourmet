@@ -1,0 +1,495 @@
+// Document
+body {
+    background-color: #FFFFFF;
+    color: #071C4D;
+    font-family: 'Assistant', sans-serif;
+}
+
+// Navbar
+.btn-login {
+    background-color: #071C4D;
+    color: #FFFFFF;
+
+    &:hover {
+        background-color: #06163E;
+        color: #FFFFFF;
+    }
+}
+
+.btn-navbar-right {
+    border-radius: 0px;
+    height: 70px;
+    margin-top: -10px !important;
+    margin-right: -18px !important;
+    margin-bottom: -8px !important;
+}
+
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.nav-link {
+    &.active {
+        color: #071C4D !important;
+        font-weight: 700;
+    }
+}
+
+// Header
+header {
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    margin-top: -70px;
+    padding: 180px 0 165px;
+
+    h1, p {
+        color: #FFFFFF;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: #FFFFFF;
+
+        &:hover {
+            background-color: #FFA864;
+            color: #FFFFFF;
+        }
+    }
+}
+
+// Stats
+.section-stats {
+    margin-top: -50px;
+
+    .stats-detail {
+        background-color: #FFFFFF;
+        padding-top: 15px;
+        padding-left: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+// Popular Heading
+.section-popular-heading {
+    background-color: #051334;
+    min-height: 540px;
+    margin-top: -50px;
+    margin-bottom: -230px;
+
+    .popular-heading {
+        margin-top: 150px;
+
+        h2, p {
+            color: #FFFFFF;
+        }
+
+        h2 {
+            font-family: 'Playfair Display';
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+// Popular Content
+.card-restaurant {
+    background: #E4E4E4;
+    background-size: cover;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    min-height: 400px;
+    padding: 30px;
+
+    .restaurant-regency {
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .restaurant-district {
+        font-size: 17px;
+        color: #FFFFFF;
+        margin-top: 3px;
+    }
+
+    .restaurant-button {
+        .btn-restaurant-details {
+            background-color: #FF9E53;
+            color: #FFFFFF;
+
+            &:hover {
+                background-color: #FFA864;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+// Partners
+.section-partners {
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+// Testimonial Heading
+.section-testimonial-heading {
+    background: linear-gradient(#FFFFFF 0%, #F7F9FF 100%);
+    min-height: 506px;
+    padding-top: 50px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+// Testimonial Content
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 40px 20px 10px;
+
+        hr {
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+    }
+
+    .testimonial-content {
+        min-height: 380px;
+
+        h3 {
+            font-size: 22px;
+        }
+    }
+
+    .testimonial {
+        color: #6E6E6E;
+        font-size: 24px;
+        font-weight: 200;
+        min-height: 160px;
+    }
+
+    .dine-at {
+        color: #6E6E6E;
+        font-size: 22px;
+        font-weight: 200;
+    }
+
+    .btn-need-help {
+        background-color: #F2F2F2;
+        color: #C3C3C3;
+
+        &:hover {
+            background-color: #F3F3F3;
+            color: #C3C3C3;
+        }
+    }
+
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: #FFFFFF;
+
+        &:hover {
+            background-color: #FFA864;
+            color: #FFFFFF;
+        }
+    }
+}
+
+// Footer
+.section-footer {
+    a {
+        color: #071C4D;
+    }
+}
+
+// Details Heading
+.section-details-heading {
+    background: #E4E6EB;
+    margin-top: -68px;
+    min-height: 310px;
+}
+
+// Details Content
+.section-details-content {
+    margin-top: -210px;
+    min-height: 100vh;
+
+    .breadcrumb {
+        background-color: transparent;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    .breadcrumb-item {
+        &.active {
+            color: #071C4D;
+            font-weight: 600;
+        }
+    }
+
+    .card-details {
+        border-radius: 11px;
+        padding: 30px;
+
+        .restaurant-information {
+            th {
+                color: #071C4D;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            td {
+                color: #B1B1B1;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            .text-blue {
+                color: #071C4D;
+                font-weight: 600;
+            }
+
+            .text-orange {
+                color: #FF9E53;
+                font-weight: 600;
+            }
+        }
+
+        .payment-instruction {
+            color: #B1B1B1;
+            font-size: 16px;
+            font-weight: 200;
+        }
+
+        .bank {
+            .bank-item {
+                h3 {
+                    color: #071C4D;
+                    font-size: 18px;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    margin-bottom: 0;
+                }
+
+                .description {
+                    float: left;
+                    margin-left: 10px;
+                    overflow: hidden;
+
+                    h3, p {
+                        color: #071C4D;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .bank-image {
+                float: left;
+                height: 30px;
+                margin-right: 5px;
+            }
+        }
+
+        .disclaimer {
+            color: #B1B1B1;
+            font-size: 14px;
+            font-weight: 200;
+        }
+
+        .gj-datepicker {
+            .datepicker {
+                border-right: 0;
+            }
+
+            .input-group-append {
+                .btn {
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        .btn-add-now {
+            background-color: #071C4D;
+            color: #FFFFFF;
+
+            &:hover {
+                background-color: #06163E;
+                color: #FFFFFF;
+            }
+        }
+
+        h1 {
+            font-size: 26px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        p {
+            color: #B1B1B1;
+            font-size: 18px;
+        }
+    }
+
+    .features {
+        margin-top: 20px;
+
+        h3 {
+            color: #071C4D;
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        .description {
+            float: left;
+            margin-left: 10px;
+            overflow: hidden;
+        }
+
+        .features-image {
+            float: left;
+            height: 45px;
+            width: 45px;
+        }
+    }
+
+    .gallery {
+        .xzoom-container {
+            display: block;
+
+            .xzoom {
+                box-shadow: none;
+                margin-bottom: 10px;
+                width: 100%;
+            }
+
+            .xactive {
+                border: 4px solid #1ABC9C;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .members {
+        .members-image {
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    .join-now-container {
+        margin-top: -16px;
+    }
+
+    .btn-join-now {
+        background-color: #FF9E53;
+        border-radius: 0;
+        color: #FFFFFF;
+
+        &:hover {
+            background-color: #FFA864;
+            color: #FFFFFF;
+        }
+    }
+
+    .card-right {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: none;
+    }
+}
+
+// Section Success
+.section-success {
+    height: 90vh;
+
+    h1 {
+        color: #071C4D;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    p {
+        color: #B1B1B1;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    img {
+        height: 200px;
+    }
+
+    .btn-home-page {
+        background-color: #20335F;
+        border-radius: 4px;
+        color: #FFFFFF;
+
+        &:hover {
+            background-color: #071C4D;
+            color: #FFFFFF;
+        }
+    }
+}
