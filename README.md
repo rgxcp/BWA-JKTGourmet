@@ -3,6 +3,9 @@
 
 **ID**: Website pemesanan restoran menggunakan PHP dan framework Laravel.
 
+## Status
+END OF LIFE
+
 ## Requirements
 1. Composer
 2. Laravel
