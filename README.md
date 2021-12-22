@@ -1,7 +1,5 @@
-# 👑 PHP - Laravel - JKTGourmet
-**EN**: Restaurant booking website using PHP and Laravel framework.
-
-**ID**: Website pemesanan restoran menggunakan PHP dan framework Laravel.
+# 👑 BWA JKTGourmet
+Restaurant booking website using PHP and Laravel framework.
 
 ## Status
 END OF LIFE
